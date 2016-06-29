@@ -25,6 +25,8 @@
     "gulp-inject": "^4.1.0",
     "gulp-sourcemaps": "^1.6.0",
     "gulp-tslint": "^5.0.0",
-    "hapi": "^13.4.1"
+    "hapi": "^13.4.1",
+    "inert": "^4.0.0",
+    "mongoose": "^4.5.2"
   }
 }
