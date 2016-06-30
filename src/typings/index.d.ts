@@ -2,6 +2,12 @@
 /// <reference path="globals/node/index.d.ts" />
 
 declare module "inert" {
-    var Inert : any
+    let Inert : any
     export {Inert}
+}
+
+declare module "require-namespace" {
+    export var createSync : (...args) => any
+    export var model : any
+    export var service : any
 }

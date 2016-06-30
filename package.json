@@ -27,6 +27,7 @@
     "gulp-tslint": "^5.0.0",
     "hapi": "^13.4.1",
     "inert": "^4.0.0",
-    "mongoose": "^4.5.2"
+    "mongoose": "^4.5.2",
+    "require-namespace": "^0.3.44"
   }
 }
