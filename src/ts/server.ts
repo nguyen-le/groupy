@@ -3,7 +3,7 @@ import * as Inert from 'inert'
 import * as Path from 'path'
 import * as Groupy from 'require-namespace'
 
-import {staticRoutes} from './routes'
+import {routes} from './route'
 //Groupy.createSync(__dirname + '/routes/', 'routes')
 
 const server = new Server({
@@ -25,7 +25,7 @@ server.register(Inert, (err) => {
     if (err) { throw err }
 })
 
-server.route(staticRoutes)
+server.route(routes)
 
 server.start((err) => {
     if (err) { throw err }
