@@ -1,10 +1,7 @@
 {
     "compilerOptions": {
         "target": "ES5",
-        "outDir": "js",
+        "outDir": "compiled",
         "rootDir": "./ts"
-    },
-    "exclude": [
-        "react"
-    ]
+    }
 }

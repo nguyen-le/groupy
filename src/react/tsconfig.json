@@ -3,6 +3,6 @@
         "module": "commonjs",
         "target": "ES5",
         "outDir": "compiled",
-        "rootDir": "./js"
+        "rootDir": "./ts"
     }
 }
