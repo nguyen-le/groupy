@@ -1,9 +1,9 @@
 import * as React from 'react'
 import * as ReactDOM from 'react-dom'
 
-import {LandingPage} from './component/landingPage'
+import {LandingPage} from './component/landing-page'
 
 ReactDOM.render(
-    <h1> Welcome </h1>,
+    <LandingPage />,
     document.getElementById('landing')
 )

@@ -10,7 +10,7 @@ const server = new Server({
     connections: {
         routes: {
             files: {
-                relativeTo: Path.join(__dirname, '../public')
+                relativeTo: Path.join(__dirname, '../../public')
             }
         }
     }
