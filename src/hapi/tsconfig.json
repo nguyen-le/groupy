@@ -3,5 +3,8 @@
         "target": "ES5",
         "outDir": "js",
         "rootDir": "./ts"
-    }
+    },
+    "exclude": [
+        "react"
+    ]
 }
